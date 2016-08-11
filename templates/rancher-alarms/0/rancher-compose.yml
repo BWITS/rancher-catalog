@@ -28,7 +28,7 @@
       description: "ALARM_SLACK_WEBHOOK_URL "
       type: "string"
       required: true
-    - variable: "AALARM_SLACK_CHANNEL"
+    - variable: "ALARM_SLACK_CHANNEL"
       label: "ALARM_SLACK_CHANNEL"
       description: "ALARM_SLACK_CHANNEL"
       type: "string"
