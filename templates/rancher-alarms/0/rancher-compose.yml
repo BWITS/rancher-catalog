@@ -1,0 +1,40 @@
+.catalog:
+  name: "rancher-alarms"
+  version: "v0.0.1"
+  description: "Send notifications when something goes wrong in rancher"
+  questions:
+    - variable: "RANCHER_ADDRESS"
+      label: "Rancher URL"
+      description: "Rancher server address"
+      type: "string"
+      required: true
+    - variable: "RANCHER_ACCESS_KEY"
+      label: "Rancher Access Key"
+      description: "Rancher Access Key for the environment to be monitored"
+      type: "string"
+      required: true
+    - variable: "RANCHER_SECRET_KEY"
+      label: "Rancher Secret Key"
+      description: "Rancher Secret Key for the environment to be monitored"
+      type: "string"
+      required: true
+    - variable: "RANCHER_ENV_ID"
+      label: "Rancher Environment ID"
+      description: "Rancher Environment ID"
+      type: "string"
+      required: true
+    - variable: "ALARM_SLACK_WEBHOOK_URL"
+      label: "ALARM_SLACK_WEBHOOK_URL"
+      description: "ALARM_SLACK_WEBHOOK_URL "
+      type: "string"
+      required: true
+    - variable: "AALARM_SLACK_CHANNEL"
+      label: "ALARM_SLACK_CHANNEL"
+      description: "ALARM_SLACK_CHANNEL"
+      type: "string"
+      required: true
+    - variable: "ALARM_SLACK_BOTNAME"
+      label: "ALARM_SLACK_BOTNAME"
+      description: "ALARM_SLACK_BOTNAME"
+      type: "string"
+      required: true
