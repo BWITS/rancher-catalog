@@ -1,5 +1,5 @@
 rancher-alarms:
-  image: bwits/rancher-alarms
+  image: ndelitski/rancher-alarms
   environment:
     RANCHER_ADDRESS: ${RANCHER_ADDRESS}
     RANCHER_ACCESS_KEY: ${RANCHER_ACCESS_KEY}
